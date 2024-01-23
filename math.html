@@ -1,0 +1,52 @@
+<html>
+<head>
+<title>Javascript</title>
+</head>
+<body>
+<h2>JavaScript Math.round()</h2>
+
+<p>Math.round(x):</p>
+<p id="demo1"></p>
+
+<p>Math.ceil(x):</p>
+<p id="demo2"></p>
+
+<p>Math.floor(x):</p>
+<p id="demo3"></p>
+
+<p>Math.turnc(x):</p>
+<p id="demo4"></p>
+
+<p>Math.sign(x):</p>
+<p id="demo5"></p>
+
+<p>Math.sqrt(x):</p>
+<p id="demo6"></p>
+
+<p>Math.sin(x):</p>
+<p id="demo7"></p>
+
+<p>Math.cos(x):</p>
+<p id="demo8"></p>
+
+<p>Math.min(x):</p>
+<p id="demo9"></p>
+
+<p>Math.max(x):</p>
+<p id="demo10"></p>
+
+
+<script>
+document.getElementById("demo1").innerHTML=Math.round(3.5);
+document.getElementById("demo2").innerHTML=Math.ceil(3.5);
+document.getElementById("demo3").innerHTML=Math.floor(3.5);
+document.getElementById("demo4").innerHTML=Math.trunc(5.5);
+document.getElementById("demo5").innerHTML=Math.sign(5);
+document.getElementById("demo6").innerHTML=Math.sqrt(81);
+document.getElementById("demo7").innerHTML="The sine value of 90 degree is "+Math.sin(90 * Math.PI/180);
+document.getElementById("demo8").innerHTML="The cosine value of 0 degree is "+Math.cos(0 * Math.PI/180);
+document.getElementById("demo9").innerHTML=Math.min(0,-20,30,50,100,-55);
+document.getElementById("demo10").innerHTML=Math.max(0,-20,30,50,100,-55);
+</script>
+</body>
+</html>
